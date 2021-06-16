@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  # Specify a specific pool here!
+
+steps:
+- script: echo Hello, world!
+  displayName: 'This script will not be allowed'

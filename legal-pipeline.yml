@@ -1,0 +1,10 @@
+trigger:
+- main
+
+pool:
+  # Specify a specific pool here!
+
+steps:
+- task: NuGetToolInstaller@1
+  inputs:
+    versionSpec: 
